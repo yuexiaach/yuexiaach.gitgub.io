@@ -67,6 +67,7 @@
 	border: none;
 	background: #1F76CB;
 	float: left;
+	top: 5px;
 	cursor: pointer;
 	box-shadow: 0 1px 2px rgba(28,116,203,0.5);
 	color: #ffffff;
