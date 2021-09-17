@@ -1,8 +1,9 @@
 /*---------------------搜索框样式-------------------------------*/
 #search_bg{
-	
 	width: 960px;
 	height:50px;
+	position:absolute;
+	left:200px;
 }
 
 #search_bg #button_bg .seach_type{
