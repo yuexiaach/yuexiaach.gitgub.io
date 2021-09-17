@@ -10,11 +10,11 @@ $(document).ready(function(){
 	textb.focus();//文档加载完毕 搜索框获取焦点
 	var search_types={
 		"types":[{name:"wd",action:"./search.php",value:"搜索本站",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
-				 {name:"wd",action:"http://www.baidu.com/s",value:"百度一下",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
-				 {name:"q",action:"http://www.so.com/s",value:"360搜索",subcolor:"#53C920",stype:"./images/sanjiao_04.png"},
-				 {name:"w",action:"http://www.soso.com/q",value:"腾讯搜索",subcolor:"#760AAA",stype:"./images/sanjiao_05.png"},
-				 {name:"query",action:"http://www.xuan369.com/so/qqkk8.jsp",value:"搜狗搜索",subcolor:"#F94F1B",stype:"./images/sanjiao_06.png"},
-				 {name:"q",action:"http://209.85.228.42/search",value:"谷歌搜索",subcolor:"#29C971",stype:"./images/sanjiao_07.png"}
+				 {name:"wd",action:"https://www.baidu.com/s",value:"百度一下",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
+				 {name:"q",action:"https://www.so.com/s",value:"360搜索",subcolor:"#53C920",stype:"./images/sanjiao_04.png"},
+				 {name:"w",action:"https://www.soso.com/q",value:"腾讯搜索",subcolor:"#760AAA",stype:"./images/sanjiao_05.png"},
+				 {name:"query",action:"https://www.xuan369.com/so/qqkk8.jsp",value:"搜狗搜索",subcolor:"#F94F1B",stype:"./images/sanjiao_06.png"},
+				 {name:"q",action:"https://209.85.228.42/search",value:"谷歌搜索",subcolor:"#29C971",stype:"./images/sanjiao_07.png"}
 				]};
 	//alert(search_types.types[1].value);
 	//选择搜索类型按钮被点击
@@ -70,7 +70,7 @@ $(document).ready(function(){
 		}
 		if(event.which!=39&&event.which!=40&&event.which!=37&&event.which!=38&&event.which!=13)
 		$.ajax({
-			url:"http://suggestion.baidu.com/su",
+			url:"https://suggestion.baidu.com/su",
 			type:"GET",
 			dataType:"jsonp",
 			jsonp: 'jsoncallback',
