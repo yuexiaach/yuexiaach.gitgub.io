@@ -114,6 +114,7 @@ width: 960px;
 height: auto;
 min-height: 400px;
 overflow: hidden;
+background: #FFFFFF;
 }
 #search_result .result_num{
 width: 960px;
@@ -153,7 +154,7 @@ border-bottom:dashed 1px #cccccc;
 	text-align: center;
 	text-decoration: none;
 	line-height: 30px;
-	background: #000000;
+	background: none;
 	color: #363636;
 	border:solid 1px #A5A5A5;
 	transition:all .5s linear;
