@@ -9,8 +9,7 @@ $(document).ready(function(){
 	var tbcolor="#126AC1";
 	textb.focus();//文档加载完毕 搜索框获取焦点
 	var search_types={
-		"types":[{name:"wd",action:"./search.php",value:"搜索本站",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
-				 {name:"wd",action:"https://www.baidu.com/s",value:"百度一下",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
+		"types":[{name:"wd",action:"https://www.baidu.com/s",value:"百度一下",subcolor:"#126AC1",stype:"./images/sanjiao_03.png"},
 				 {name:"q",action:"https://www.so.com/s",value:"360搜索",subcolor:"#53C920",stype:"./images/sanjiao_04.png"},
 				 {name:"w",action:"https://www.soso.com/q",value:"腾讯搜索",subcolor:"#760AAA",stype:"./images/sanjiao_05.png"},
 				 {name:"query",action:"https://www.xuan369.com/so/qqkk8.jsp",value:"搜狗搜索",subcolor:"#F94F1B",stype:"./images/sanjiao_06.png"},
